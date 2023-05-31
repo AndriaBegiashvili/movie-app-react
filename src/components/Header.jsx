@@ -7,7 +7,7 @@ const Header = (props) => {
     <div className="search_page_form">
         <form method="get" id="searchformpage" onSubmit={props.submitHandler}>
         <input autoComplete='off' type="text" placeholder="Search Here..." value={props.value} id="s" onChange={(event)=>{props.setSearchValue(event.target.value)}}></input>
-        <button type="submit" fdprocessedid="j22xi9"><img src="./src/assets/search.svg"></img></button>
+        <button type="submit" fdprocessedid="j22xi9"><img src="https://img.icons8.com/?size=512&id=7695&format=png"></img></button>
         </form>
         </div>
     </>
