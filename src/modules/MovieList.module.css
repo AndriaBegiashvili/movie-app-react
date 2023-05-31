@@ -10,4 +10,25 @@
     width: 100%;
     border-radius: 10px;
 }
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.text{
+    color: rgb(228, 221, 221);
+  font-size: 30px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+p{
+    color:rgb(161, 59, 119);
+    font-size: 16px;
+}
 

@@ -1,23 +1,15 @@
-import React from 'react'
-import classes from '../modules/Header.module.css'
-const Header = () => {
+import React,{useState} from 'react'
+const Header = (props) => {
   return (
+  
     <>
-    <header class={classes.container+' mt-32 '}>
-      <div class="row space-between align-center">
-        <div>
-          <h2>MIKURE</h2>
+    <h1 style={{textAlign:'center',fontSize:'60px'}}>MIKURE</h1>
+    <div className="search_page_form">
+        <form method="get" id="searchformpage" onSubmit={props.submitHandler}>
+        <input autoComplete='off' type="text" placeholder="Search Here..." value={props.value} id="s" onChange={(event)=>{props.setSearchValue(event.target.value)}}></input>
+        <button type="submit" fdprocessedid="j22xi9"><img src="./src/assets/react.svg"></img></button>
+        </form>
         </div>
-        <div className={classes.form__group}>
-          <input placeholder='yea' className={classes.form__field}></input>
-          <label for="name" className={classes.form__label}>Search</label>
-
-        </div>
-        <div class="btn_container pc_h1">
-          <button className={classes.button_86}>Search</button>
-        </div>
-      </div>
-    </header>
     </>
   )
 }
