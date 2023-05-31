@@ -1,0 +1,33 @@
+body{
+    background: rgb(27, 33, 46);
+    color:white
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.space-between {
+    justify-content: space-between;
+}
+.align-center {
+    align-items: center;
+}
+.containter{
+    width: 80rem;
+    margin: 0 auto;
+}
+.mt-32{
+    margin-top: 32px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
