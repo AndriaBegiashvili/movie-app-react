@@ -6,7 +6,6 @@ body{
 
 }
 .row {
-    display: flex;
     flex-wrap: wrap;
 }
 .space-between {
