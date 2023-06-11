@@ -52,7 +52,7 @@ const MovieList = (props) => {
               },
               1500: {
                 spaceBetween: 50,
-                slidesPerView: 5.5,
+                slidesPerView: 5.3,
               },
               870: {
                 spaceBetween: 50,
