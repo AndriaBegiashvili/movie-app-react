@@ -24,26 +24,50 @@ const MovieList = (props) => {
               360: {
                 spaceBetween: 50,
                 height: 20,
-                slidesPerView: 2.5,
+                slidesPerView: 1.3,
               },
-              640: {
+              445: {
                 spaceBetween: 50,
                 height: 20,
-                slidesPerView: 3.5,
+                slidesPerView: 1.5,
+              },
+              460: {
+                spaceBetween: 50,
+                height: 20,
+                slidesPerView: 1.6,
+              },
+              500: {
+                spaceBetween: 50,
+                height: 20,
+                slidesPerView: 1.8,
+              },
+              600: {
+                spaceBetween: 50,
+                height: 20,
+                slidesPerView: 2.3,
               },
               1400: {
+                spaceBetween: 50,
+                slidesPerView: 4.5,
+              },
+              1500: {
                 spaceBetween: 50,
                 slidesPerView: 5.5,
               },
               870: {
                 spaceBetween: 50,
-                slidesPerView: 4.5,
+                slidesPerView: 3.3,
+              },
+              1080: {
+                spaceBetween: 50,
+                slidesPerView: 3.5,
+              },
+              1250: {
+                spaceBetween: 50,
+                slidesPerView: 3.7,
               },
 
-              1450: {
-                spaceBetween: 50,
-                slidesPerView: 6.5,
-              },
+      
             }}
           >
             <div className="row">
